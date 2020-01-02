@@ -111,8 +111,12 @@ EvaluateIfChanged::usage = "EvaluateIfChanged[expr, trackedsymbols] evaluates ex
 LinkParallelEvaluate::usage = "LinkParallelEvaluate[expr, \"name\"] loads a WSTP-compatible external program in every subkernel to perform a parallel
 evaluation on expr. expr must be a parallel function like ParallelMap, ParallelTable, ParallelEvaluate, etc.";
 
-LinkEvaluate::usage "LinkEvaluate[expr, \"name\"] loads a WSTP-compatible external program in the master kernel to perform a
+LinkEvaluate::usage = "LinkEvaluate[expr, \"name\"] loads a WSTP-compatible external program in the master kernel to perform a
 evaluation on expr. This can be used with LinkParallelEvaluate to control the scoping of the link definitions.";
+
+
+DefaultIndicator::usage = "DefaultIndicator[indexProgress, totalSize] show the default indicator.";
+DetailedIndicator::usage = "DetailedIndicator[indexProgress, totalSize, startTime, label] show the detailed indicator. Can be used in custom Monitors.";
 
 
 (* ::Chapter:: *)

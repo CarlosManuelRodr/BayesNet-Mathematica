@@ -45,9 +45,3 @@
 ehthumbs.db
 Thumbs.db
 
-# Output directories #
-#####################
-/iris/
-/car/
-/bank/
-/adult/
